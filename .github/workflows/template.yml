@@ -2,7 +2,7 @@ name: template
 
 on:
   push:
-    branches: [ main, dev ]
+    branches: [ template ]
 
 jobs:
   template-tgt:
