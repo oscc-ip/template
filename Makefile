@@ -20,8 +20,8 @@ INC_LIST     :=
 FILE_LIST    :=
 SIMV_PROG    := simv
 
-INC_LIST += -I ./rtl
-INC_LIST += -I ./tb
+INC_LIST += -I ../rtl
+INC_LIST += -I ../tb
 
 comp:
 	@mkdir -p build
